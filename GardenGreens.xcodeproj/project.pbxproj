@@ -11,6 +11,7 @@
 		D6C8EB442C47B053006D3626 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8EB432C47B053006D3626 /* ContentView.swift */; };
 		D6C8EB462C47B054006D3626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8EB452C47B054006D3626 /* Assets.xcassets */; };
 		D6C8EB492C47B054006D3626 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8EB482C47B054006D3626 /* Preview Assets.xcassets */; };
+		D6C8EB512C47B0D5006D3626 /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8EB502C47B0D5006D3626 /* Vegetable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D6C8EB432C47B053006D3626 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6C8EB452C47B054006D3626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C8EB482C47B054006D3626 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C8EB502C47B0D5006D3626 /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D6C8EB402C47B053006D3626 /* GardenGreens */ = {
 			isa = PBXGroup;
 			children = (
+				D6C8EB4F2C47B0CA006D3626 /* Models */,
 				D6C8EB412C47B053006D3626 /* GardenGreensApp.swift */,
 				D6C8EB432C47B053006D3626 /* ContentView.swift */,
 				D6C8EB452C47B054006D3626 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D6C8EB482C47B054006D3626 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6C8EB4F2C47B0CA006D3626 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8EB502C47B0D5006D3626 /* Vegetable.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C8EB442C47B053006D3626 /* ContentView.swift in Sources */,
+				D6C8EB512C47B0D5006D3626 /* Vegetable.swift in Sources */,
 				D6C8EB422C47B053006D3626 /* GardenGreensApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
